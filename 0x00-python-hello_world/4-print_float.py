@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 number = 3.14159
-print(f"float: {number:.2f}\n")
+formatted_number = round(number, 2)
+print(f"Float: {formatted_number}\n")
