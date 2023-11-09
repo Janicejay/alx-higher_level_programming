@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-
 def search_replace(my_list, search, replace):
     new_list = []
     for search_idx in range(len(my_list)):
