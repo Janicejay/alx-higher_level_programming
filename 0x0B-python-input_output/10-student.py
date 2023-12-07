@@ -1,28 +1,20 @@
-!/usr/bin/python3
-""" Student to JSON with filter """
+#!/usr/bin/python3
+"""Student that defines a student"""
 
 
 class Student:
-    """ class Student """
-
     def __init__(self, first_name, last_name, age):
-        """ defines a student by
-        first name, last name and age"""
-
         self.first_name = first_name
         self.last_name = last_name
         self.age = age
 
     def to_json(self, attrs=None):
-        """ Public method that retrieves a dictionary
-        representation of a Student """
-        new = {}
+        """Returns the dictionary representation of a student"""
 
         if attrs is None:
             return self.__dict__
-
-        for attr in attrs:
-            if attr in self.__dict__.keys():
-                new[attr] = self.__dict__[attr]
-
-        return
+        new_dict = {}
+        for a in attrs:
+            if a in self.__dict__:
+                new_dict[a] = self.__dict__[a]
+        return new_dict

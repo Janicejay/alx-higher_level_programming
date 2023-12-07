@@ -8,4 +8,4 @@ def append_write(filename="", text=""):
     if not filename:
         return 0
     with open(filename, mode="a", encoding="UTF-8") as myFile:
-        return(myFile.write(text))
+        return myFile.write(text)
