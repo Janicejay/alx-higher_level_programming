@@ -10,7 +10,7 @@
 
 In `Python`, input/output refers to the process of taking data from external sources (like a user via the keyboard, files, or other programs) and sending data to external destinations (like displaying output to the screen or writing to files).
 
-### SOME KEYPOINTS
+## SOME KEYPOINTS
 
 - INPUT: to do this the `input()` function is used to take input from a user through the keyboard. it prompts the user to enter data and awaits input. an example is:
 	> name = input("Enter your name: ")
@@ -21,7 +21,7 @@ In `Python`, input/output refers to the process of taking data from external sou
 ##### NOTE:
 *python also provides functions to read data from files*. (`open()`, `read()`, `readline()`, `readlines()`). You can also write to files using `open()` with `"w"` or `"a"` mode to write or append content to a file.
 
-### OTHER CONCEPTS
+## OTHER CONCEPTS
 
 - `JSON`(Javascript Object Notation):
 it is a lightweight, human-readable data interchange format. It's used for transmitting data between a server and a web application as text.
