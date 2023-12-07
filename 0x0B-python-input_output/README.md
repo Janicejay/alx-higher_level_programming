@@ -1,11 +1,5 @@
 # PYTHON - INPUT, OUTPUT
 
-## CONTENTS
-
-- [ABOUT](#about)
-- [SOME KEYPOINTS](#some keypoints)
-- [OTHER CONCEPTS](#other concepts)
-
 ## ABOUT
 
 In `Python`, input/output refers to the process of taking data from external sources (like a user via the keyboard, files, or other programs) and sending data to external destinations (like displaying output to the screen or writing to files).
